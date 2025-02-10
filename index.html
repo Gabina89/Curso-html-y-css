@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <title>GatiPedia</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ </head>
+ <body>
+  <header>
+    <div class="container">
+      <p class="logo">GatiPedia</p>
+      <nav>
+       <a href="#somos">Quienes Somos</a>
+       <a href="#que-sabes">Datos Curiosos</a>
+       <a href="#caracteristicas">Tips</a>
+      </nav>
+    </div>
+  </header>
+  
+  <section id="hero">
+    <h1>Aprendé TODO <br>sobre Gatos</h1>
+    <form action="https://forms.gle/VYetFG1Lc2beCgXx5" target="_blank" rel="noopener noreferrer">
+     <button>¡REGISTRATE!</button>
+    </form>
+  </section>
+  
+  <section id="somos">
+    <div class="container">
+      <div class="img"></div>
+      <div class="texto">
+       <h2>Somos <span class="color-acento">GatiPedia</span></h2>
+       <p>Somos una comunidad de personas que ¡AMAMOS! a los gatitos y por eso queremos compartir entre todos tips y datos curiosos para cuidar a nuestros michiamigos.<br>
+       Acá vas a encontrar que aman y odian, info valiosa y ¡mucho más!<br>
+       Esperamos que te guste y si sos amantes de los peluditos también podes compartir con todos los que formamos esta comunidad tu experiencia.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section id="que-sabes">
+    <div class="container">
+     <h2>¿Qué sabés sobre gatos?</h2>
+     <div class="sabes">
+       <div class="carta">
+         <h3>INTRODUCCIÓN</h3>
+         <p>El gato doméstico (Felis silvestris catus), llamado comúnmente gato, y de forma coloquial minino, michino, y algunos nombres más, es un mamífero carnívoro de la familia Felidae
+         </p>
+         <button>+ info</button>
+       </div>
+       <div class="carta">
+         <h3>DATOS CURIOSOS</h3>
+         <p>Junto con el perro, es el animal doméstico más popular como mascota, como ayuda en la lucha contra roedores o ambas cosas. En 2017, la población mundial estimada de gatos estaba en seiscientos millones de felinos.</p>
+         <button>+ info</button>
+       </div>
+       <div class="carta">
+         <h3>SENTIDOS</h3>
+         <p>Sus sentidos del olfato y oído son superiores en muchos aspectos a los del ser humano. Estos, junto con avanzados receptores de la visión, gusto y tacto, lo hacen uno de los mamíferos con un sistema sensorial más sofisticado.
+         </p>
+         <button>+ info</button>
+       </div>
+    </div>
+  </section>
+
+  <section id="caracteristicas">
+    <div class="container">
+     <h3>Tips sobre Gatos</h3>
+     <p>Cosas que los Gatos <em>AMAN</em>:</p>
+      <ul>
+       <li>Planta Menta gatuna</li>
+       <li>Tirar objetos</li>
+       <li>Correr a la madrugada</li>
+     </ul>
+
+     <p>Cosas que los Gatos <em>ODIAN</em>:</p>
+      <ol>
+       <li>Agua</li>
+       <li>Otros gatos</li>
+       <li>Ruidos explosivos</li>
+      </ol>
+    </div>
+  </section>
+
+ <section id="gato-preferido">
+    <h3>¿Cual es tu gatito preferido?</h3>
+    <form action="/enviar-respuesta">
+     <!--Botones de Radio-->
+      <p><label for="gatito naranja">
+         <input id="gatito naranja" type="radio" value="gatito naranja" name="gatitos" checked>Gatito naranja
+     </label></p>
+     <p><label for="gatito negro">
+        <input id="gatito negro" type="radio" value="gatito negro" name="gatitos">Gatito negro
+      </label></p>
+      <p><label for="gatito tricolor">
+        <input id="gatito tricolor" type="radio" value="gatito tricolor" name="gatitos">Gatito tricolor
+      </label></p>
+
+     <!--Texto y Enviar-->
+      <input type="text" placeholder="URL de la foto de tu gato" required>
+        <p></p><button type="submit">ENVIAR</button></p>
+    </form>
+  </section>
+   
+  <footer>
+    <div class="container">
+      <p><small>Derechos de Autor - Gabina Alongi</small></p>
+    </div>
+  </footer>
+</body>
+</html>
